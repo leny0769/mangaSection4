@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MangaController;
-use App\Http\Controllers\Manga2Controller;
+use App\Http\Controllers\DessinateursController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('mangas',[MangaController::class, 'index']);
-Route::get('mangas2',[Manga2Controller::class, 'index']);
+Route::get('dessinateurs',[DessinateursController::class, 'index']);
